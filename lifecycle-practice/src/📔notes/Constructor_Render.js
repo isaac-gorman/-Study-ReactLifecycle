@@ -18,10 +18,13 @@
 
 // Mini Follow Along:
 // - Arrow function ESNext syntax example:
-eventHandler = () => this.ListeningStateChangedEvent({ foo: "bar" });
+eventHandler = () => this.setState({ foo: "bar" });
 // - In the future I will have more then enough time to get reps practicing applicatin set up with state data via the constructor. But move on to the next concepts ->
 
 // - For a second imagine that we have some data from an external file living within the application.
+// - We also want to render a list of data out the DOM.
+// - I we want to access that data form the external file, I would need to import that data as an array. In this context I would not care about the shape, or the type of data, just as long as it lives in the array.
+// - In order to import this data I would use the constructor to set up it up on state.
 
 // ----------------------------------------------------------------------------------------------------------------
 
