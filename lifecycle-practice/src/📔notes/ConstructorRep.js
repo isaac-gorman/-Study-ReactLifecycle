@@ -42,3 +42,5 @@ export default MyComponent;
 // Conclusion:
 // - Basically the render() method is how we tell React to turn data into DOM elements. Render and the virtuall dom are best buddies.
 // - I must continue to think about these methods as the mounting methods in our Component Lifecycle as you create more professional-looking code/
+// Code Sandbox
+// https://codesandbox.io/s/friends-o6j9j?file=/src/App.js
