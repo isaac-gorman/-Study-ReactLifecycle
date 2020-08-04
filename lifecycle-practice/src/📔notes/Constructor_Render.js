@@ -30,14 +30,28 @@ eventHandler = () => this.setState({ foo: "bar" });
 
 // THE REACT RENDER METHOD ----------------------------------------------------------------------------------------
 // Q: What is render() used for within the React Component Lifecycle?
+// - It is used to return some piece of data to the DOM.
+// - After that the virtual DOM will then handle the steps to mount those DOM pieces.
 
 // Q: Will a component work without a render() method?
+// - NO!
+// - A component needs the render() method inorder for it to work.
 
 // Q: Define a pure function? Why are pure functions important?
+// - Well, render() should be a pure function, meaning it should return the same thing each time.
+// - It's concern is to look at two things
+// - 1) this.props
+// - 2) this.state
+// - Then after looking at those two concerns it will return some DOM element, and array of the DOM elements, and a couple of other things that I may want to reference later.
 
 // Q: What is the function "there" to perform?
+// - To be like a dog and play fetch and return what my component should render to the screen.
+// - Remember that dev's usually ignore what "Component", but it is a very important Lifecycle method and should be regarded as such.
 
 // Q: What's important to remember about the render() method within the RC Lifecycle?
+// - It's called twice:
+// - Once: in the Mounting Phase (Birth)
+// - Twice: in the Updating Phase (Life/Growth)
 
 // Mini Follow Along:
 
